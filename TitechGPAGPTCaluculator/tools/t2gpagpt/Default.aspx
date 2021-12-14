@@ -10,12 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>3Q成績入力</h2>
+            <h1>Titech GPA/GPT計算機</h1>
             <p>教務ウェブの「<strong>成績閲覧</strong>」か「<strong>修得時期別成績一覧</strong>」を開き，計算したい成績をそのままコピーし，テキストボックスに入力します．</p>
             <p>注意：「GPA・GPT」のページ<strong>ではなく</strong>，かならず「<strong>成績閲覧</strong>」か「<strong>修得時期別成績一覧</strong>」のページを参照してください．</p>
             <p>入力していただいた成績は，計算を行った後，即破棄されます．（<strong>サーバにデータは残りません</strong>）</p>
 
-            <h3>このページでできること</h3>
+            <h2>このページでできること</h2>
             <p>入力されたデータだけを元にして</p>
             <ul>
                 <li>電電GPT（「認定」科目を含む）</li>
@@ -35,7 +35,7 @@
             <p>
                 ※ バグ報告はTwitter（<a href="https://twitter.com/noynoy83">@noynoy83</a>）か（修正いただける方は）GithubのPull Reqでお願いします．</p>
 
-            <h3>入力方法</h3>
+            <h2>入力方法</h2>
             <p>1. 「<strong>習得時期別成績一覧</strong>」または「<strong>成績閲覧</strong>」ページから成績全体を選択し，「コピー」します．</p>
             <p>2. 続けて，テキストボックス欄に<strong>そのまま</strong>貼り付けます．以下のような画像の手順を踏めば問題ありません．</p>
             <p>※参考動画</p>
