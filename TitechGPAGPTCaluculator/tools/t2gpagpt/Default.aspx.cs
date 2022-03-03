@@ -68,7 +68,7 @@ namespace TitechGPAGPTCalculator
                     gp = 0;
                     Session["sum_of_failure_credits"] = (double)Session["sum_of_failure_credits"] + credits;
                 }
-                else if (sp[4 + flag] == "未報告")
+                else if (sp[4 + flag] == "未報告" || sp[4+flag] == "-")
                 {
                     // do nothing
                     continue;
